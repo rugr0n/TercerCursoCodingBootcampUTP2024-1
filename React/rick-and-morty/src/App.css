@@ -1,0 +1,48 @@
+.character-list {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.character-card {
+  vertical-align: middle;
+}
+
+.character-name {
+  border-right: 1px solid #ddd;
+}
+
+.character-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-card img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
